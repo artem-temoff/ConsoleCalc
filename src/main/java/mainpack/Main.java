@@ -1,3 +1,5 @@
+package mainpack;
+
 /**
  * Created by Artem Eremenko on 28.03.2015.
  */

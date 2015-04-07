@@ -1,12 +1,15 @@
+package states;
+import mainpack.Calc;
+import operations.Operator;
+
 /**
  * Created by Artem Eremenko on 28.03.2015.
  */
-class State {
+public class State {
     static double first;
-    static char operand;
+    static Operator operand;
     static double second;
-
-    void ChangeState(Calc calc, State state) {
+   void ChangeState(Calc calc, State state) {
         calc.ChangeState(state);
     }
 
