@@ -36,6 +36,8 @@ public class OperationTest {
         if (result != expression) throw new Exception();
     }
 
+    //TODO Unit test cannot throw any exception. Or if they throw them unit test signature should handle this exception
+    //TODO read http://www.mkyong.com/unittest/junit-4-tutorial-2-expected-exception-test/
     @Test
     public void testDivCalculate() throws Exception {
         try {
