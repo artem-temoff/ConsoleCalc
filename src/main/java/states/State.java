@@ -9,6 +9,8 @@ public class State {
     static double first;
     static Operator operand;
     static double second;
+
+    //TODO What is that??? method has name starting with capital letter? Very rood mistake (-1 point)
    void ChangeState(Calc calc, State state) {
         calc.ChangeState(state);
     }

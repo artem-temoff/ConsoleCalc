@@ -10,6 +10,8 @@ class DivisionByZero extends RuntimeException {
     public DivisionByZero(String message) {
         super(message);
     }
+
+    //TODO For which purpose you add overriding, but change nothing???
     @Override
     public String toString() {
         return super.toString();
